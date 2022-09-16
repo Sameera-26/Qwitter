@@ -70,10 +70,9 @@
                 </q-btn>
                 <q-btn color="grey" size="sm" icon="fas fa-retweet " flat round>
                 </q-btn>
-                <q-btn color="red"  size="sm"  icon="favorite" flat round>
+                <q-btn color="pink" size="sm" icon="favorite" flat round>
                 </q-btn>
-                <q-btn color="grey" size="sm" icon="share" flat round>
-                </q-btn>
+                <q-btn color="grey" size="sm" icon="share" flat round> </q-btn>
                 <q-btn
                   @click="deleteQweet(qweet)"
                   color="grey"

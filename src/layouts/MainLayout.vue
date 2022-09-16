@@ -64,6 +64,7 @@
           <q-item class="q-mb-sm" to="/messages" clickable v-ripple>
             <q-item-section avatar>
               <q-icon name="fas fa-envelope" size="md" />
+              <q-badge floating color="primary">23+</q-badge>
             </q-item-section>
             <q-item-section class="text-h6 text-weight-bold"
               >Messages</q-item-section
@@ -129,7 +130,7 @@
       <q-drawer
         show-if-above
         v-model="rightDrawerOpen"
-        :width="500"
+        :width="530"
         :breakpoint="1400"
         side="right"
         bordered
@@ -303,16 +304,10 @@
           </q-card-section>
         </q-card>
         <br />
-        <q-card
-          bordered
-          class="texti my-card justify-center"
-          style="max-width: 360px"
-        >
-          <span class="texti">
-            Terms of Service Privacy Policy Cookie Policy Accessibility Ads info
-            More © 2022 Twitter, Inc.
-          </span>
-        </q-card>
+        <span class="texti">
+          Terms of Service Privacy Policy Cookie Policy Accessibility Ads info
+          More © 2022 Twitter, Inc.
+        </span>
       </q-drawer>
     </div>
     <q-page-container>
@@ -356,5 +351,5 @@ export default {
   border:0
 .texti
   left:5%
-  text-align-center
+  text-align: center
 </style>

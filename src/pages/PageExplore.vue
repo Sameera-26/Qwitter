@@ -25,7 +25,7 @@
   </q-img>
   <q-page class="absolute-position">
     <q-scroll-area class="absolute fullscreen">
-      <h5 class="text-weight-bold q-px-md q-py-xs">Trends for you</h5>
+      <h5 class="text-weight-bold q-px-md q-my-sm">Trends for you</h5>
       <!-- TRENDS SECTION -->
       <q-list spearator padding>
         <q-item class="q-py-md">
